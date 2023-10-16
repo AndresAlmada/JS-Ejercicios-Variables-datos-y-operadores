@@ -178,3 +178,51 @@ La duración TOTAL del vuelo es de ${duracionTotal}. horas.`) */
 /* Incremento
 
 Crear un programa que pida ingresar una número de partida y una cantidad a ir incrementando y mostrar cinco mensajes seguidos que muestren el número del mensaje y el total incrementado hasta el momento (p. ej.: empezando con 5 e incrementando 5, "Incremento 1) Total: 10", "Incremento 2) Total: 15", "Incremento 3) Total: 20", etc.). */
+
+/* let numeroInicial = parseInt(prompt("ingrese un numero de partida"))
+let numeroDeIncremento = parseInt(prompt ("ingrese otro numero que incrementará el anterior"))
+let incremento1 = numeroInicial + numeroDeIncremento
+
+alert (`Incremento 1) Total: ${incremento1}`) 
+let incremento2 = incremento1 + numeroDeIncremento
+alert (`Incremento 2) Total: ${incremento2}`) 
+let incremento3 = incremento2 + numeroDeIncremento
+alert (`Incremento 3) Total: ${incremento3}`) 
+let incremento4 = incremento3 + numeroDeIncremento
+alert (`Incremento 4) Total: ${incremento4}`) 
+let incremento5 = incremento4 + numeroDeIncremento
+alert (`Incremento 5) Total: ${incremento5}`)  */
+
+
+/* Celsius a Fahrenheit
+
+Crear un programa que pida ingresar una cantidad de grados Celsius y muestre un mensaje con el resultado de la conversión a grados Fahrenheit. */
+
+/* let gradosCelsius = prompt("ingrese una cantidad en grados Celsius")
+let gradosFahrenheit = (gradosCelsius * (9/5) + 32)
+
+alert (`Su cantidad de grados Celsius equivalen a ${gradosFahrenheit} grados Fahrenheit.`) */
+
+
+/* Múltiplos
+
+Crear un programa que pida al usuario un número, luego otro y mostrar en un mensaje si el primer valor es múltiplo del segundo. INVESTIGAR EL OPERADOR MÓDULO O DE RESTO % PARA HACERLO */
+
+/* let numero1 = prompt ("Ingrese un numero")
+let numero2 = prompt ("Ingrese un segundo numero")
+
+const multiplo = (numero1, numero2) => {
+    if (numero1 % numero2 === 0) {
+        alert ("Es multiplo")
+    }
+    else {
+        alert ("No es multiplo")
+    }
+}
+
+multiplo(parseInt(numero1), parseInt(numero2)); */
+
+/* Segundos a horas, minutos y segundos
+
+Crear un programa que pida ingresar una cantidad en segundos y muestre un mensaje con el resultado de la conversión en horas, minutos y segundos que corresponde a esa cantidad (p.ej. 3602 segundos = 1 hora 2 segundos). (Usar operador módulo) */
+
